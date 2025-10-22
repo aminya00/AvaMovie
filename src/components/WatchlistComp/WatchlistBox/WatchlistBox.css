@@ -1,0 +1,102 @@
+.watchlist-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:10px 10px 13px;
+    gap: 14px;
+    background-color: var(--boxes-bg-color);
+    transition: var(--main-transition);
+    border-radius: var(--border-radius-20);
+    font-size: var(--main-font-size);
+    width: 100%;
+    height: 100%;
+}
+.watchlist-box:hover{
+    background-color: var(--main-black-color);
+}
+.watchlist-box-img-cont{
+    height: 240px;
+    width: 100%;
+    position: relative;
+    border-radius: var(--border-radius-15);
+    overflow: hidden;
+}
+.watchlist-box-img-cont img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.watchlist-box-img-cont .row-box-icons-cont{
+    align-items: flex-end;
+}
+
+
+.watchlist-box-bookmark-icon{
+    color: #FF1760;
+    font-size: 27px;
+    opacity: 0;
+    visibility: hidden;
+    transition: var(--main-transition) ;
+    margin-top: 20px;
+    position: absolute;
+    cursor: pointer;
+}
+.watchlist-box-bookmark-icon:hover{
+    transform: scale(1.2);
+}
+.watchlist-box:hover .watchlist-box-info{
+    align-items: center;
+    position: relative;
+    /* top: 30px; */
+    /* height: 120px;
+    position: absolute;
+    bottom: 0; */
+}
+.watchlist-box:hover .watchlist-box-info div ,.watchlist-box:hover .watchlist-box-info span{ 
+    visibility: hidden;
+    opacity: 0;
+}
+.watchlist-box:hover .watchlist-box-bookmark-icon{
+    opacity:1;
+    margin-top: 0;
+    visibility: visible;
+}
+.watchlist-box-img-cont .row-box-icons-right,.watchlist-box-img-cont .row-box-icons-cont{
+    flex-direction: column;
+}
+
+.watchlist-box-ps{
+    opacity: .4;
+    font-size: var(--font-size-12);
+}
+.watchlist-box-info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    color: var(--main-white-color);
+    gap: 3px;  
+}
+.watchlist-box-name{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    direction: ltr;
+    width: 100%;
+    text-align: left;
+    font-weight: 600;
+    font-size:var(--font-size-14);
+}
+.rating-box-cont{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.rating-box-cont div{
+display: flex;
+align-items: center;
+gap: 6px;
+color: #dbdbdb;
+}

@@ -1,0 +1,122 @@
+/* ///////////// start user-panel-buy-license /////////// */
+@media only screen and (max-width: 1100px) {
+  .user-panel-buy-license-boxes-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .user-panel-buy-license-boxes-container {
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+  }
+.user-panel-buy-license-title{
+    flex-direction: column;
+    align-items: flex-start !important;
+}
+}
+
+.user-panel-buy-license-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.user-panel-buy-license-title{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--main-white-color);
+    gap: 10px;
+}
+.user-panel-buy-license-title span{
+    font-weight: 300;
+    font-size: 11px;
+}
+.user-panel-buy-license-flag{
+    text-align:center;
+    background-color: #1d222b;
+    color: var(--main-white-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+.user-panel-buy-license-boxes-container{
+    display: grid;
+    grid-template-columns: repeat(4,minmax(0,1fr));
+    gap: 20px;
+}
+.user-panel-buy-license-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #10141A;
+    border-radius: 20px;
+    padding: 25px;
+    position: relative;
+    gap: 30px;
+}
+.user-panel-buy-license-box-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    color: var(--main-white-color);
+}
+.user-panel-buy-license-box-content-title{
+    font-size: 20px;
+}
+.user-panel-buy-license-box-content svg{
+    font-size: 30px;
+    color:var(--main-white-color) 
+}
+.user-panel-buy-license-box-price{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: var(--main-white-color);
+}
+.user-panel-buy-license-box-off-price{
+    text-decoration: line-through;
+    font-size: 14px;
+}
+.user-panel-buy-license-box-real-price{
+    font-size: 20px;
+    font-weight: 500;
+}
+.empty-box{
+    height: 25px;
+}
+.user-panel-box-toman-sign{
+    font-size: 14px !important;
+    opacity: .6;
+}
+.user-panel-buy-license-box-btn-container{
+    width: 100%;
+    border-top: 1px solid #3F3F3F;
+    padding-top: 35px;
+}
+.user-panel-buy-license-box-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d222b;
+    padding: 15px 0;
+    border-radius: 10px;
+    transition: var(--main-transition);
+    gap: 7px;
+    color: var(--main-white-color);
+    cursor: pointer;
+}
+.user-panel-buy-license-box-btn svg{
+    color: var(--main-white-color);
+    font-size: 16px;
+}
+.user-panel-buy-license-box-btn:hover{
+    background-color: var(--main-pink-color);
+}
+/* ///////////// end user-panel-buy-license /////////// */

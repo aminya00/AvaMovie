@@ -1,0 +1,12 @@
+@font-face {
+  font-family: IRANYekan;
+  src: url(/Fonts/Qs_Iranyekan.ttf);
+}
+*{
+  padding: 0;
+  margin: 0;
+  font-size: var(--main-font-size);
+  box-sizing: border-box;
+  font-family: IRANYekan,tahoma;
+  direction: rtl;
+}

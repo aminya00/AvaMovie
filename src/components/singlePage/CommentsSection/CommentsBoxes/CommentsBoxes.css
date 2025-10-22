@@ -1,0 +1,206 @@
+/*---------------start comments-sort-container--------------- */
+.comments-sort-container {
+  background-color: #141821;
+  border-radius: 15px;
+  padding: 11px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--main-white-color);
+}
+.comments-sort-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.comments-sort-content-title {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  font-weight: 300;
+}
+.comments-sort-content-title svg {
+  font-size: 28px;
+  color: var(--icon-color);
+}
+.comments-sort-content-btns {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.comments-sort-content-btn {
+  padding: 9px 10px;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: var(--main-white-color);
+}
+.comments-sort-content-btn.active {
+  background-color: var(--main-pink-color);
+}
+/*---------------end comments-sort-container--------------- */
+
+/*---------------start comments-boxes--------------- */
+.comments-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.comments-group-box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.sub-comment-box {
+  margin-right: 100px;
+}
+.comments-box {
+  display: grid;
+  grid-template-columns: fit-content(100%) 1fr fit-content(100%);
+  background-color: var(--login-box-bg-color);
+  border-radius: 15px;
+  padding: 30px;
+  gap: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.comment-box-photo-container {
+  display: flex;
+}
+.comment-box-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.comment-box-img img {
+  width: 100%;
+  height: 100%;
+}
+.comment-box-content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.comment-box-content-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: var(--main-white-color);
+}
+.comment-box-content-text-name-cont{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.comment-box-content-text-name {
+  font-weight: 700;
+  font-size: 14px;
+}
+.comment-box-content-text-name span{
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--main-pink-color);
+  margin-right: 5px;
+}
+.comment-box-content-text-body {
+  opacity: 0.8;
+  line-height: 23px;
+}
+.comment-box-content-btns-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.comment-box-answer-btn {
+  border: 1px solid var(--main-pink-color);
+  border-radius: 15px;
+  padding: 10px 25px;
+  cursor: pointer;
+  transition: var(--main-transition);
+  color: var(--main-white-color);
+}
+.comment-box-answer-btn:hover {
+  background-color: var(--main-pink-color);
+}
+.comment-box-answer-count {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--main-white-color);
+}
+.comment-box-answer-count svg {
+  color: var(--main-white-color);
+  font-size: 19px;
+}
+.comment-box-likes-container {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.comment-box-likes {
+  display: flex;
+  align-items: center;
+  border-radius: 0 15px 15px 0;
+  background-color: #10151c;
+  position: relative;
+  height: 40px;
+  padding: 0 15px;
+  color: var(--main-white-color);
+  cursor: pointer;
+}
+.comment-box-likes-count {
+  position: absolute;
+  top: -10px;
+  background-color: #10151c;
+  padding: 3px 5px;
+  border-radius: 10px;
+  font-size: var(--font-size-11);
+  color: rgba(255, 255, 255, 0.8);
+  transition: var(--main-transition);
+}
+.comment-box-likes svg {
+  transition: var(--main-transition);
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 15px;
+}
+.comment-box-likes:hover svg,
+.comment-box-likes:hover .comment-box-likes-count {
+  color: rgba(255, 255, 255);
+}
+.comment-box-likes.dislike {
+  border-radius: 15px 0 0 15px !important;
+}
+
+.comment-box-date-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.comment-box-date-content {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: var(--main-white-color);
+}
+  .comment-box-date-container span {
+  opacity: 0.8;
+  font-size: var(--font-size-12);
+}
+.comment-box-score {
+  background-color: var(--boxes-bg-color);
+  color: var(--main-white-color);
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.comment-box-score span {
+  opacity: 0.8;
+  text-wrap: nowrap;
+}
+/*---------------end comments-boxes--------------- */

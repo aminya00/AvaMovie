@@ -1,0 +1,100 @@
+/* ////////////// start select-option-multi-page //////////////// */
+
+
+            /* selectclass div svg */
+ /* .css-lohd6h-MuiSvgIcon-root-MuiSelect-icon {
+    right: -7px !important;
+    color: #d5d5d5 !important;
+    position: relative !important;
+  }
+   .css-d551zc-MuiSvgIcon-root-MuiSelect-icon {
+    right: -7px !important;
+    color: #d5d5d5 !important;
+    position: relative !important;
+  } */
+
+  .select-opt-class svg{
+      right: -7px !important;
+    color: #d5d5d5 !important;
+    position: relative !important;
+  }
+
+              /* selectclass div */
+   /* .css-sc8y68-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+    background-color: var(--select-option-color) !important;
+    color: #d5d5d5 !important;
+    border-radius: 15px !important;
+    width: 100% !important;
+    font-size: 11px !important;
+    overflow: hidden;
+    font-family: IRANYekan, tahoma !important;
+  } */
+
+    .select-opt-class{
+        background-color: var(--select-option-color) !important;
+    color: #d5d5d5 !important;
+    border-radius: 15px !important;
+    width: 100% !important;
+    font-size: 11px !important;
+    overflow: hidden;
+    font-family: IRANYekan, tahoma !important;
+  }
+
+              /* selectclass div div */
+   /* .css-w76bbz-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+    background-color: var(--select-option-color) !important;
+    padding: 0 15px !important;
+    height: 38px !important;
+    display: flex !important;
+    align-items: center !important;
+  } */
+       .select-opt-class div{
+background-color: var(--select-option-color) !important;
+    padding: 0 15px !important;
+    height: 38px !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+
+   /* .css-1rju2q6-MuiButtonBase-root-MuiMenuItem-root {
+    font-size: 11px !important;
+    font-family: IRANYekan, tahoma !important;
+  } */
+#menu- div:nth-child(3n) ul li{
+      font-size: 11px !important;
+    font-family: IRANYekan, tahoma !important;
+}
+
+
+                /* selectclass */
+  /* .css-hs8t5g-MuiFormControl-root {
+    margin: 0 !important;
+  } */
+    .select-opt-cont-class{
+        margin: 0 !important;
+  }
+
+
+ /* .css-1tktgsa-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+    background-color: var(--select-option-color) !important;
+    color: #d5d5d5 !important;
+    margin-top: 5px;
+  } */
+
+  #menu- div:nth-child(3n){
+       background-color: var(--select-option-color) !important;
+    color: #d5d5d5 !important;
+    margin-top: 5px;
+}
+
+
+                /* selectclass div fieldset */
+ /* .css-sc8y68-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root.Mui-error
+    .MuiOutlinedInput-notchedOutline {
+    border: none;
+  } */
+    .select-opt-class fieldset{
+    border: none;
+  }
+  /* ////////////// end select-option-multi-page //////////////// */
+  

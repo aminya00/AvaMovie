@@ -1,0 +1,15 @@
+.not-found-item-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top:20px;
+  }
+  .not-found-item-body svg{
+    width: 200px;
+    height: 200px;
+  }
+  .not-found-item-title{
+      color: var(--main-white-color);
+      font-size: 26px;
+  }

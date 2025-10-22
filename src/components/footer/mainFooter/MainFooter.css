@@ -1,0 +1,87 @@
+.main-footer-cont{
+    margin: 0 15px 40px;
+    padding-top: 20px;
+}
+.main-footer{
+    border-top: 1px dashed rgba(255, 255, 255, .2);
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    gap: 15px;
+}
+.copyright-cont{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.copyright-text{
+    font-size: var(--font-size-12);
+    color: var(--main-white-color);
+    opacity: .5;
+}
+.scroll-to-top{
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--main-transition);
+    cursor: pointer;
+}
+.scroll-to-top:hover{
+    background-color: var(--main-pink-color);
+   
+}
+.footer-scroll-icon{
+    color: var(--main-white-color);
+    font-size: 22px ;
+}
+
+.footer-left-side{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    color: var(--main-white-color);
+}
+.main-footer-social{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 40px;
+}
+.main-footer-social a{
+    height: 19px;
+}
+.main-footer-social svg{
+    transition: var(--main-transition);
+    font-size: 19px;
+}
+.footer-social-telegram:hover,.footer-social-twitter:hover{
+    color: #4DA6E9 !important;
+}
+.footer-social-insta:hover{
+    color: #FE098F !important;
+}
+.main-footer-btn{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 15px;
+    border-radius: 15px;
+    background-color: var(--main-pink-color);
+    gap: 15px;
+    transition: var(--main-transition);
+    cursor: pointer;
+}
+.main-footer-btn:hover{
+    background-color: var(--pink-btn-hover);
+}

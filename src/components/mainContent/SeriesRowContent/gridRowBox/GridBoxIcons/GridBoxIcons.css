@@ -1,0 +1,24 @@
+.row-box-icons-cont{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    padding: 7px;
+    gap: 5px;
+}
+.row-box-icons-right{
+    display: flex;
+    gap: 5px;
+    height: fit-content;
+}
+.row-box-icons-cont svg{
+    width: 25px;
+    height: 25px;
+    background-color: rgba(0, 0, 0, .4);
+    border-radius: 18px;
+    padding: 5px;
+    transition: var(--main-transition);
+    color: var(--main-white-color);
+}

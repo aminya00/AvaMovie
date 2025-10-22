@@ -1,0 +1,10 @@
+@media only screen and (max-width:1047px){
+    .mySwiper{
+        height: 309px !important;
+    }
+    .swiper-slide{
+        max-width: 300px !important;
+    }
+   
+ 
+}

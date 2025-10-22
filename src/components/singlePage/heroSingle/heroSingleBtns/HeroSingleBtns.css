@@ -1,0 +1,49 @@
+.hero-single-btns{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.hero-online-btn,.hero-last-episode-btns{
+    height: 45px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 10px;
+    transition: var(--main-transition);
+}
+.hero-single-btns span{
+    font-size: var( --font-size-14) !important;
+}
+.hero-online-btn{
+    background-color: var(--main-pink-color);
+}
+.hero-online-btn:hover{
+    background-color: var(--pink-btn-hover);
+}
+.hero-last-episode-btns{
+    background-color: var(--single-btn-color);
+    color: var(--main-gray-color);
+}
+.hero-left-btn-cont{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.hero-collection-btn{
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--single-btn-color);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: var(--main-transition);
+}
+.hero-last-episode-btns:hover,.hero-collection-btn:hover{
+    background-color: var(--gary-btn-hover);
+}

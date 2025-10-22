@@ -1,0 +1,105 @@
+.search-result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  background-color: #121720;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 65px;
+  transition: var(--main-transition);
+  border-radius: 20px;
+}
+.search-result.closeSearchResult {
+  display: none;
+}
+.search-result-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #41454d;
+  padding-bottom: 15px;
+  margin-top: 2px;
+  color: var(--main-white-color);
+}
+.search-result-header-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+}
+.search-result-header-btn svg {
+  font-size: 10px;
+  color: var(--main-white-color);
+}
+.no-result-text {
+  color: #c0c0c0;
+}
+.search-result-boxes-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-end;
+}
+.search-result-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.search-result-box-img {
+  width: 80px;
+  height: 85px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.search-result-box-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.search-result-box-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: var(--main-white-color);
+  line-height: 18px;
+  gap: 3px;
+}
+.search-result-box-imdb {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.search-result-box-name {
+  font-weight: 500;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
+.search-result-box-year,
+.search-result-box-genres {
+  font-weight: 300;
+  font-size: 12px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 200px;
+}
+.search-result-svg {
+  color: #121720;
+  font-size: 24px;
+  top: -15px;
+  right: 100px;
+  position: absolute;
+}
+.header-submit-btn{
+    cursor: unset !important;
+}

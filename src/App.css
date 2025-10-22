@@ -1,0 +1,98 @@
+:root{
+    --main-font-size:13px;
+    --font-size-14:14px;
+    --font-size-12:12px;
+    --font-size-18:18px;
+    --font-size-11:11px;
+    --font-size-20:20px;
+    --main-pink-color:#FF437E;
+    --main-white-color:#F9F9F9;
+    --main-gray-color:#CACACA;
+    --main-black-color:#030303;
+    --download-links-cont:#0e1015;
+    --download-box-bg:#11151c;
+    --download-box-btn:#2a2d34;
+    --download-box-btn-hover:#343a48;
+    --pink-btn-hover:#ee2d6a;
+    --gary-btn-hover:#1f2635;
+    --boxes-bg-color:#141821;
+    --boxes-bg-hover:#1f2533;
+    --icon-bg-color:#5D5D5D;
+    --single-btn-color:#111419;
+    --btn-border-color:#333435;
+    --login-box-bg-color:#161d27;
+    --login-input-bg-color:#10141a;
+    --icon-color:#E5E5E5;
+    --imdb-yellow-color:#f5c518;
+    --select-option-color:#121820;
+    --select-option-open:#1f2a3a;
+    --movie-box-shadow:rgba(0, 0, 0, .5);
+    --hero-shadow:rgba(0, 0, 0, .6);
+    --border-radius-17:17px;
+    --border-radius-15:15px;
+    --border-radius-10:10px;
+    --border-radius-20:20px;
+    --main-transition:all .2s
+}
+@media only screen and (max-width: 480px) {
+    .Toastify__toast {
+        --toastify-toast-width: 320px !important;
+        margin-bottom: 1rem !important;
+        border-radius: 6px !important;
+    }
+    .Toastify__toast-container {
+        width: fit-content;
+        left: 16px;
+        bottom: 16px;
+        margin-right:16px;
+    }
+  }
+@media only screen and (min-width: 1455px) {
+  .wide-screen{
+    max-width: 1440px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+  }
+body{
+    background-color: var(--main-black-color) !important;
+}
+
+a{
+    text-decoration: none !important;
+    color: var(--main-white-color);
+    cursor: pointer;
+}
+
+
+  .Toastify__toast-container{
+    align-items: flex-end;
+  }
+  .login-toast{
+    display:flex;
+    justify-content:center;
+    font-family: IRANYekan;
+    box-shadow: 0px 4px 12px rgb(255 255 255 / 20%) !important;
+    width: fit-content;
+  }
+  .error-toast{
+    background: rgb(255, 82, 82) !important;
+  }
+  .success-toast{
+    background: #00b32d!important;
+  }
+  .warning-toast{
+    background: #f0cd79!important;
+    color:#030303 !important
+  }
+  @media only screen and (max-width:1046px){
+    .main-footer-cont{
+        display: none !important;
+    }
+    .mobile-footer-cont{
+        display: flex !important;
+    }
+    .mobile-footer-backup{
+        display: block !important;
+    }
+}

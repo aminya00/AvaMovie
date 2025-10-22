@@ -1,0 +1,17 @@
+.sidebar-menu-item-body{
+    border-radius: 0 0 20px 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: max-height .2s;
+    max-height: 0;
+}
+.sidebar-menu-item-body.active{
+    max-height: 4000px;
+}
+.sidebar-menu-item.active{
+    border-radius: 20px 20px 0 0;
+}
+.sidebar-menu-item-icon.active{
+    transform: rotate(0);
+}

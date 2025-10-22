@@ -1,0 +1,35 @@
+.comment-box-spoil-cover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(7px);
+    display: none;
+    padding-right: 100px;
+    align-items: center;
+    gap: 20px;
+  }
+  .comment-box-spoil-cover.is-spoil{
+    display: flex;
+  }
+  .comment-box-spoil-text{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--main-white-color);
+  }
+  .comment-box-spoil-text svg{
+    color: #F78851;
+    font-size: 23px;
+  }
+  .comment-box-spoil-btn{
+      border: 1px solid #D1D1D1;
+      padding: 10px 20px;
+      border-radius: 15px;
+      cursor: pointer;
+      transition:var(--main-transition);
+      color: var(--main-white-color);
+  }
+  .comment-box-spoil-btn:hover{
+    color: #000;
+    background-color: var(--main-white-color);
+  }

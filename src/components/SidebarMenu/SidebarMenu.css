@@ -1,0 +1,109 @@
+@media only screen and (max-width: 1046px) {
+    .sidebar-menu-bg-container{
+    display: flex !important;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .sidebar-manu-header svg{
+        right: -10px !important;
+    }
+}
+.sidebar-menu-bg-container{
+    display: none;
+    width: 100%;
+    height: 100vh;
+    transition: var(--main-transition);
+    z-index: 999;
+    position:fixed;
+    top:0;
+    left: 0;
+    background-color:rgba(0, 0, 0, .7);
+    visibility: hidden;
+    opacity: 0;
+}
+.sidebar-menu-bg-container.active{
+    visibility: visible;
+    opacity: 1;
+}
+.sidebar-menu-container{
+    position:relative;
+    right:-400px;
+    overflow-y: scroll;
+    max-width: 300px;
+    height: 100vh;
+    width: 75%;
+    background-color: var(--login-box-bg-color);
+    border-radius: 25px 0 0 25px;
+    padding: 30px 25px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: var(--main-transition);
+    gap: 25px;
+}
+.sidebar-active{
+    right:0;
+}
+.sidebar-manu-top{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.sidebar-manu-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.sidebar-manu-header svg{
+    position: absolute;
+    right: 0;
+    font-size: 30px;
+    top: -1px;
+    color: var(--main-white-color);
+    cursor: pointer;
+}
+.sidebar-manu-body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+.sidebar-menu-item{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: var(--select-option-color);
+    padding: 16px 20px;
+    border-radius: 20px;
+    color: var(--main-white-color);
+    justify-content: space-between;
+}
+.sidebar-menu-item-title{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.sidebar-menu-item-title svg{
+    color: var(--main-white-color);
+    font-size: 20px;
+}
+.sidebar-menu-item-icon{
+    color: var(--main-white-color);
+    font-size: 16px;
+    transform: rotate(90deg);
+}
+.sidebar-menu-app-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40px;
+    padding: 0 15px;
+    border-radius: 15px;
+    background-color: var(--main-pink-color);
+    transition: var(--main-transition);
+    cursor: pointer;
+}
+.sidebar-menu-app-btn:hover{
+    background-color: var(--pink-btn-hover);
+}

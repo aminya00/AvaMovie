@@ -1,0 +1,15 @@
+.hero-swiper-box{
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, .6);
+    border-radius: 20px;
+    overflow: hidden;
+    font-size: var(--main-font-size);
+    color: var(--main-white-color);
+    padding: 20px 15px;
+    font-weight: 600;
+    height: 100%;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

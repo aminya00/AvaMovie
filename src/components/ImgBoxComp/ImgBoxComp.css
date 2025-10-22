@@ -1,0 +1,27 @@
+.img-box-container{
+    position: relative;
+    width: 172px;
+    height: 265px;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}
+.img-box-container img{
+    border-radius: 17px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img-box-number-box{
+    position: absolute;
+    border: 2px solid var(--main-pink-color);
+    width: 25px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    background-color: var(--main-black-color);
+    top: -12px;
+    color: var(--main-white-color);
+}

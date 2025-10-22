@@ -1,0 +1,70 @@
+/* ---------------start single-shorthand-menu--------------- */
+.single-shorthand-menu {
+  display: none;
+  background-color: var(--boxes-bg-color);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.single-shorthand-menu-ul {
+  display: flex;
+  align-items: center;
+  margin: 0 15px;
+}
+.single-shorthand-menu-li {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 0 15px;
+  cursor: pointer;
+  transition: var(--main-transition);
+  margin-bottom: -1px;
+  border-bottom: 1px solid transparent;
+  color: var(--main-white-color);
+}
+.single-shorthand-li-active {
+  border-bottom-color: var(--main-pink-color);
+}
+.single-shorthand-menu-li:hover {
+  border-bottom-color: rgba(255, 255, 255, 0.5);
+}
+.single-shorthand-menu-li:hover .single-shorthand-menu-title {
+  opacity: 1;
+}
+.single-shorthand-icon-active svg {
+  color: var(--main-pink-color) !important;
+}
+.single-shorthand-li-active:hover {
+  border-bottom-color: var(--main-pink-color);
+}
+.single-shorthand-menu-title {
+  font-size: var(--font-size-14);
+  opacity: 0.8;
+  transition: var(--main-transition);
+}
+.single-shorthand-menu-icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.single-shorthand-menu-icon svg {
+  font-size: 24px;
+  color: rgb(114, 116, 122);  ;
+  vertical-align: middle;
+}
+.single-shorthand-comment-count-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--main-pink-color);
+  color: var(--main-white-color);
+  border: 2px solid var(--boxes-bg-color);
+  font-size: 11px;
+  padding: 2px 6px;
+  border-radius: 8px;
+  position: absolute;
+  right: -6px;
+  top: -15px;
+}
+
+/* ---------------end single-shorthand-menu--------------- */

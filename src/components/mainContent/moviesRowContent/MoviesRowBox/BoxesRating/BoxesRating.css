@@ -1,0 +1,15 @@
+.rating-box-cont{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.rating-box-cont div{
+display: flex;
+align-items: center;
+gap: 6px;
+color: #dbdbdb;
+}
+.max-rating{
+    font-weight: 600;
+
+}

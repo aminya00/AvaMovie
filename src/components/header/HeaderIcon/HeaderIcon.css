@@ -1,0 +1,7 @@
+.header-icon-container {
+  border-left: 1px solid rgba(255, 255, 255, .2);
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}

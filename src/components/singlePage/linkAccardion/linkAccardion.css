@@ -1,0 +1,187 @@
+/* ---------------start download-links--------------- */
+.download-links-container {
+    margin: 40px 15px;
+    padding: 20px;
+    background-color: var(--boxes-bg-color);
+    border-radius: 15px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .download-links {
+    display: flex;
+    align-items: center;
+    /* padding: 20px; */
+    border-radius: 15px;
+    background-color: var(--download-links-cont);
+    flex-direction: column;
+  }
+  .download-links.series{
+    background-color: var(--boxes-bg-color);
+
+  }
+  .download-links-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--main-white-color);
+    padding: 20px;
+    cursor: pointer;
+  }
+  .download-links-header.series{
+    padding: 14px 20px;
+  }
+  .download-links-header-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .download-links-header-flag {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    padding: 0 5px;
+    border-radius: 7px 0;
+    background-color: var(--main-pink-color);
+  }
+  .download-links-header-flag-dub{
+    background-color: #4caf50;
+  }
+  .download-links-header-title {
+    font-size: var(--font-size-14);
+    line-height: 19px;
+  }
+  .download-links-header-flag-icon {
+    display: flex;
+    align-items: center;
+  }
+  .download-links-header-flag-icon svg {
+    color: var(--main-white-color);
+    font-size: 13px;
+  }
+  .download-links-header-flag-series{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 10px;
+    background-color: var(--download-links-cont);
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .downoad-links-header-flag-series{
+    background-color: var(--download-links-cont);
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .download-links-header-icon {
+    display: flex;
+    transition: all .4s;
+  }
+  .download-links-header-icon-active{
+    transform: rotate(-180deg);
+  }
+  .download-links-content {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      width: 100%;
+      transition: padding-bottom .2s,max-height .4s  ;
+      max-height: 0px;
+      overflow: hidden;
+      padding: 0 20px 0 20px;
+    }
+    
+    .download-links-content-active {
+        max-height: 2000px;
+        padding-bottom: 20px;
+  }
+  .download-link-box {
+    background-color: var(--download-box-bg);
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .download-link-box-right {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .download-link-box-right a{
+    width: fit-content;
+  }
+  .download-link-box-premium-btn{
+    background-color: var(--download-box-btn);
+    height: 47px;
+    width: 100%;
+    display: flex;
+    transition: var(--main-transition);
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    color: var(--main-white-color);
+    border-radius: var(--border-radius-17);
+    cursor: pointer;
+    }
+    .download-link-box-premium-icon {
+        color: #F5C518;
+        font-size: 20px;
+      }
+      .download-link-box-premium-span {
+        margin-right: 5px;
+      }
+    .download-link-box-premium-btn:hover {
+      background-color: var(--download-box-btn-hover);
+    }
+  .download-link-box-ps {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .download-link-box-ps-icon {
+    color: var(--main-pink-color);
+    display: flex;
+    font-size: 15px;
+  }
+  .download-link-box-ps-text {
+    font-size: var(--font-size-12);
+  }
+  .download-link-box-left {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-end;
+    font-weight: 500;
+    justify-content: center;
+  }
+  .download-links-box-quality {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    color: var(--main-white-color);
+    direction: ltr;
+    flex-wrap: wrap;
+  }
+  .download-links-box-quality-sub {
+    background-color: #1a1e29;
+    padding: 9px 17px 7px;
+    border-radius: 20px;
+    font-size: var(--font-size-11);
+  }
+  .download-links-box-info {
+    width: fit-content;
+    display: flex;
+    color: #bcbcbc;
+    gap: 20px;
+    direction: ltr;
+    flex-wrap: wrap;
+  }
+  
+  /* ---------------end download-links--------------- */
+  

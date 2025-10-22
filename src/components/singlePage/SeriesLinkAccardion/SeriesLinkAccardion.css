@@ -1,0 +1,63 @@
+.download-links-header-title{
+    display: flex;
+    align-items: center;
+    gap: 38px;
+    color: var(--main-white-color);
+}
+.download-link-series-detail{
+    font-size: var(--font-size-14);
+    padding-left:30px;
+    border-left: 1px solid #4a4c4f;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 400;
+}
+.download-link-series-detail.no-padd{
+    border-left:none;
+}
+.download-link-series-detail svg{
+    color: var(--main-white-color);
+    font-size:17px ;
+}
+.download-links-header-icons{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.download-links-box-series-no-premium{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 0;
+}
+.download-links-box-series-no-premium-title{
+font-size: 15px;
+color: var(--main-white-color);
+}
+.download-link-box-premium-btn.series{
+    width: 150px;
+    height: 50px;
+}
+.download-links-box-series-premium{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 0;
+}
+.download-links-header-title.mobile-device{
+    display: none;
+    justify-content: space-evenly;
+}
+.download-links-box-quality-sub-mobile-device{
+    font-size: 11px;
+}
+.download-links-box-series-quality-sub{
+    background-color: #1a1e29;
+    padding: 9px 17px 7px;
+    border-radius: 20px;
+    font-size: var(--font-size-11);
+}

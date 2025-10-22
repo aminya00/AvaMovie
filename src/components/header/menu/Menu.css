@@ -1,0 +1,107 @@
+@media only screen and (max-width:1250px){
+  .menu-content-container{
+    max-width: 850px !important;
+  }
+  .menu-content-body{
+  grid-template-columns: repeat(5,minmax(0,1fr)) !important;
+  }
+}
+
+.menu-ul {
+  display: flex;
+  list-style: none;
+  font-size: var(--font-size-14);
+  align-items: center;
+}
+.menu-ul li {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--main-white-color);
+  opacity: 0.8;
+  transition: var(--main-transition);
+  cursor: pointer;
+}
+.menu-ul li:hover {
+  opacity: 1;
+}
+.menu-icon {
+  font-size: 24px;
+  padding-left: 2px;
+}
+
+.menu-content-container{
+  max-width: 1030px;
+  width: 100%;
+  background-color: red;
+  position: absolute;
+  margin: 0 10px;
+  background-color: var(--login-input-bg-color);
+  padding: 25px;
+  border-radius: 20px;
+  transition: var(--main-transition);
+  z-index: 1;
+  opacity: 0;
+  visibility: hidden;
+  top: 70%;
+}
+.menu-content-container.active{
+  opacity: 1;
+  visibility: visible;
+  top: 100%;
+}
+.menu-content-header{
+  display: flex;
+  margin: -1px 0;
+}
+.menu-content-header-item{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 16px 30px;
+  border-radius: 20px 20px 0 0;
+  border: 1px solid transparent;
+  gap: 8px;
+}
+.menu-content-header-item.active{
+  border-color: rgba(255, 255, 255, .2);
+  border-bottom: 1px solid var(--login-input-bg-color);
+}
+.menu-content-header-item span{
+  font-size: 16px;
+  color: var(--main-white-color);
+}
+.menu-content-header-item svg{
+  color: var(--main-white-color);
+  font-size: 22px;
+}
+.menu-content-body{
+  padding: 20px;
+  border-radius: 29px 0 29px 29px;
+  border: 1px solid rgba(255, 255, 255, .2);
+display: grid;
+grid-template-columns: repeat(6,minmax(0,1fr));
+}
+.menu-content-body.fix-border{
+  border-radius:29px;
+} 
+.menu-content-body-item{
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+  gap: 5px;
+  color: var(--main-white-color);
+  cursor: pointer;
+}
+.menu-content-body-item:hover{
+  color: var(--main-pink-color);
+}
+.menu-content-body-item span{
+  font-size: 15px;
+  transition: var(--main-transition);
+  opacity: .8;
+}
+.menu-content-body-item-desc{
+  font-size: 11px !important;
+}

@@ -1,0 +1,37 @@
+.information-page-cont{
+    display: flex;
+flex-direction: column;
+gap: 30px;
+margin: 40px 15px;
+}
+.information-page-header{
+    flex: 1;
+    text-align: center;
+    color: var(--main-white-color);
+    font-size: 26px;
+}
+.information-page-body{
+    padding: 15px;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.information-page-body.dcma p{
+    direction: ltr;
+    line-height: 26px;
+}
+.information-page-body p{
+    color: var(--main-white-color);
+}
+.question-text{
+    font-size: 16px;
+    color: #ff6600;
+    font-weight: bolder;
+}
+.answer-text{
+    font-size: 16px;
+    color: var(--main-white-color);
+    display: block;
+}

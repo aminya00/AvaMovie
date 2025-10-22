@@ -1,0 +1,52 @@
+.movies-list-row-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px;
+    gap: 15px;
+    background-color: var(--boxes-bg-color);
+    transition: var(--main-transition);
+    border-radius: var(--border-radius-15);
+    font-size: var(--main-font-size);
+    width: 100%;
+    height: 100%;
+}
+.movies-list-row-box-img-cont{
+    /* height: 178px; */
+    width: 100%;
+    aspect-ratio: 1/1;
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.movies-list-row-box-img-cont img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.movies-list-row-box-info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: var(--main-white-color);
+    gap: 15px;  
+    color: #fff;
+}
+.movies-list-box-desc{
+    display: flex;
+    flex-direction: column;
+    color: var(--main-white-color);
+    gap: 7px;
+}
+.movies-list-box-decs-item{
+    display: flex;
+    justify-content: space-between;
+}
+.movies-list-box-owner-name{
+    color: #868686;
+}

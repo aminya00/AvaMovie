@@ -1,0 +1,128 @@
+/* /////////////// start header-account-btn ///////////// */
+.header-account-btn-container{
+    position:relative;
+  }
+  .header-notification-body-svg {
+    position: absolute;
+    color: #121720;
+    font-size: 24px;
+    top: -15px;
+    left: 12px;
+  }
+  .header-account-btn-body{
+    position: absolute;
+      visibility: hidden;
+      opacity: 0;
+      transition:var(--main-transition);
+      background-color: #121720;
+      left: 0;
+      width: 260px;
+      border-radius: 20px;
+      padding: 20px;
+      top: 50px;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      gap:16px;
+  }
+  .header-account-btn-body.isHovered {
+    visibility: visible !important;
+    opacity: 1 !important;
+    top: 64px !important;
+  }
+  .header-account-btn-body-header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    width: 100%;
+  }
+  .header-account-btn-body-title{
+    display:flex;
+    align-items:center;
+  gap:10px
+  }
+  .header-account-btn-body-title-logo{
+    background-color: #212A39;
+    color: #DFE6FF;
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+  }
+  .header-account-btn-body-title-content{
+    display:flex;
+    flex-direction:column;
+    line-height:19px;
+  }
+  .header-account-btn-body-user-name{
+    font-size: 14px;
+      font-weight: 500;
+      max-width: 90px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      color:var(--main-white-color);
+      text-wrap:nowrap;
+    }
+    .header-account-btn-body-has-lisence{
+    font-size: 12px;
+    color: #FF1760;
+  }
+  .header-account-btn-body-has-lisence.vip{
+    color: #4CAF50;
+  }
+  .header-account-lisence-btn{
+    background-color: #212A39;
+    padding: 9px 10px;
+    /* display: flex; */
+    border-radius: 10px;
+    font-size: 12px;
+    transition: all .1s;
+  }
+  .header-account-lisence-btn:hover {
+    box-shadow: 0 0 0 20px rgba(0, 0, 0, .1) inset;
+  }
+  .header-account-btn-line{
+    border-bottom: 1px solid rgba(255, 255, 255, .15);
+  width:100%
+  }
+  .header-account-btn-body-ul{
+    list-style-type:none;
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    width: 100%;
+  }
+  .header-account-btn-body-li{
+    color:var(--main-white-color);
+    display:flex;
+    align-items: center;
+    gap:8px;
+    cursor:pointer;
+    transition: var(--main-transition);
+  }
+  .header-account-btn-body-li:hover{
+    color: #FF1760;
+  }
+  .header-account-btn-body-li svg{
+    font-size: 18px;
+      color: #D3D3D3;
+  }
+  .header-logout-btn{
+    background-color: var(--main-pink-color);
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+    border-radius: 15px;
+    transition: all 0.1s;
+    color:var(--main-white-color);
+    width: 100%;
+    cursor:pointer;
+  }
+  .header-logout-btn:hover {
+    box-shadow: 0 0 0 20px rgba(0, 0, 0, .1) inset;
+  }
+  /* /////////////// end header-account-btn ///////////// */

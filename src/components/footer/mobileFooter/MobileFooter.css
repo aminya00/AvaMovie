@@ -1,0 +1,23 @@
+.mobile-footer-backup{
+    height: 85px;
+    display: none;
+}
+.mobile-footer-cont{
+    height: 85px;
+    width: 100%;
+    display: none;
+    background-color: rgba(0, 0, 0, .9);
+    position: fixed;
+    bottom: 0;
+    z-index: 9999;
+}
+.mobile-footer-cont a{
+    height: 100%;
+    width: 25%;
+}
+.mobile-footer-item{
+    height: 100%;
+    width: 25%;
+    color: var(--main-white-color);
+    cursor: pointer;
+}

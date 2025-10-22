@@ -1,0 +1,118 @@
+@media only screen and (max-width:1048px){
+    .imdb-box-scores-container{
+        align-self: unset !important;
+    }
+    .imdb-box-scores-container{
+        margin-bottom: 20px !important;
+    }
+}
+@media only screen and (max-width:600px){
+    .imdb-box{
+        flex-direction: column;
+    }
+    .imdb-box-content{
+        align-items: center !important;
+    }
+    .imdb-box-desc-title{
+        text-align: center;
+        order: 1;
+    }
+    .imdb-box-scores-container{
+        order: 2;
+    }
+    .imdb-box-desc-content{
+        order: 3;
+    }
+    .imdb-box{
+        gap: 30px !important;
+    }
+    .imdb-box-vote-count{
+        display: none !important;
+    }
+    .imdb-page-container{
+        gap: 40px !important;
+    }
+}
+
+.imdb-page-container {
+    margin: 0px 15px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .imdb-page-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .imdb-page-title {
+    border-bottom: 2px solid var(--main-pink-color);
+    padding-bottom: 7px;
+    color: var(--main-white-color);
+    font-size: 20px;
+  }
+  .imdb-boxes-container{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .imdb-box{
+    display: flex;
+    width: 100%;
+    gap: 60px;
+    border-bottom: 1px solid #292929;
+    padding-bottom: 25px;
+    align-items: center;
+  }
+  .last-imdb-box{
+    border: none !important;
+  }
+.imdb-box-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: fit-content;
+    flex: 1;
+}
+.imdb-box-scores-container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 10px;
+    align-self: flex-end;
+}
+.imdb-box-score-line{
+    height: 26px;
+    width: 1px;
+    background-color: #3a3a3a;
+}
+.imdb-box-score{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.imdb-box-score-num{
+    color: var(--main-white-color);
+    font-size: 15px;
+    font-weight: 500;
+}
+.imdb-box-vote-count{
+    color: var(--main-white-color);
+    opacity: .7;
+}
+.imdb-box-desc-title{
+    color: var(--main-white-color);
+    font-size: 18px;
+    font-weight: 500;
+    transition:var(--main-transition);
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.imdb-box-desc-title:hover{
+    color: var(--main-pink-color);
+}
+.imdb-box-desc-content{
+    color: var(--main-white-color);
+    line-height: 25px;
+    opacity: .9;
+}

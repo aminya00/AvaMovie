@@ -1,0 +1,42 @@
+@media only screen and (max-width:700px){
+.dashboard-user-info-item {
+  font-size: 11px !important;
+  }
+}
+@media only screen and (max-width:600px){
+  .dashboard-container{
+    flex-direction: column !important;
+  }
+  .dashboard-user-info{
+    width: 100% !important;
+  }
+}
+
+.dashboard-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.dashboard-user-info {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+.dashboard-user-info-item {
+  background-color: #10141a;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  font-size: 14px;
+  color: var(--main-white-color);
+  width: 100%;
+}
+.dashboard-user-info-item svg{
+    font-size: 20px;
+    margin-right: 10px;
+}
